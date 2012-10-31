@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/com.sun.tools.xjc_2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/com.sun.xml.bind_2.2.0.v201004141950.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/commonj.sdo_2.1.1.v201112051852.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/connector.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/eclipselink-dbwsutils.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/eclipselink-jpa-modelgen_2.4.1.v20121003-ad44345.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/eclipselinkmw.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/elmwcore.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.activation_1.1.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.mail_1.4.0.v201005080615.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.persistence_1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.persistence_2.0.4.v201112161009.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.servlet_2.4.0.v200806031604.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.xml.bind_2.2.0.v201105210648.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/javax.xml.stream_1.0.1.v201004272200.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/org.eclipse.persistence.jpars.source_2.4.1.v20121003-ad44345.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/org.eclipse.persistence.jpars_2.4.1.v20121003-ad44345.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/org.eclipse.persistence.oracleddlparser.source_1.0.0.v20120628.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/org.eclipse.persistence.oracleddlparser_1.0.0.v20120628.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/package-rename.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/link jars/xercesImpl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
