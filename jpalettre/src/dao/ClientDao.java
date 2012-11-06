@@ -7,11 +7,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
-
+import DaoImp.ClientdaoImpl;
 import models.Client;
 import models.Lettre;
 
-public class ClientDao {
+public class ClientDao implements ClientdaoImpl{
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPersistenceUnit");
 	EntityManager em = emf.createEntityManager();
 	

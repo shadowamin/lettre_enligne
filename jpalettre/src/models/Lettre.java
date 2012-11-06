@@ -4,9 +4,11 @@ package models;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-
+import javax.persistence.OneToOne;
+@Entity
 public class Lettre {
 
 	@Id
@@ -14,7 +16,16 @@ public class Lettre {
 	private int etat ;
 	private String type;
 	private int nb_page;
-
+	
+	@OneToOne(cascade=CascadeType.MERGE)
+private Client sender;
+	
+	public Client getSender() {
+	return sender;
+}
+public void setSender(Client sender) {
+	this.sender = sender;
+}
 	@OneToMany(cascade=CascadeType.MERGE)
 	private List<Destinataire> list_dist;
 	public String getIdlettre() {
@@ -49,9 +60,11 @@ public class Lettre {
 	}
 	@Override
 	public String toString() {
-		return "Lettre [getIdlettre()=" + getIdlettre() + ", getEtat()="
-				+ getEtat() + ", getType()=" + getType() + ", getNb_page()="
-				+ getNb_page() + ", getList_dist()=" + getList_dist() + "]";
+		return "Lettre [getSender()=" + getSender() + ", getIdlettre()="
+				+ getIdlettre() + ", getEtat()=" + getEtat() + ", getType()="
+				+ getType() + ", getNb_page()=" + getNb_page()
+				+ ", getList_dist()=" + getList_dist() + ", hashCode()="
+				+ hashCode() + "]";
 	}
 	@Override
 	public int hashCode() {
@@ -63,6 +76,7 @@ public class Lettre {
 		result = prime * result
 				+ ((list_dist == null) ? 0 : list_dist.hashCode());
 		result = prime * result + nb_page;
+		result = prime * result + ((sender == null) ? 0 : sender.hashCode());
 		result = prime * result + ((type == null) ? 0 : type.hashCode());
 		return result;
 	}
@@ -88,6 +102,11 @@ public class Lettre {
 		} else if (!list_dist.equals(other.list_dist))
 			return false;
 		if (nb_page != other.nb_page)
+			return false;
+		if (sender == null) {
+			if (other.sender != null)
+				return false;
+		} else if (!sender.equals(other.sender))
 			return false;
 		if (type == null) {
 			if (other.type != null)

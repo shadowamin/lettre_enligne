@@ -5,8 +5,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import models.Lettre;
-
-public class LettreDao {
+import DaoImp.LettredaoImpl;
+public class LettreDao implements LettredaoImpl{
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPersistenceUnit");
 	EntityManager em = emf.createEntityManager();
 	

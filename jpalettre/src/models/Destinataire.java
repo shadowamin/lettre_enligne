@@ -1,7 +1,8 @@
 package models;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
-
+@Entity
 public class Destinataire {
 	@Id
 	private String id_dest;
@@ -10,6 +11,9 @@ public class Destinataire {
 	public String getId_dest() {
 		return id_dest;
 	}
+	
+	
+	
 	public void setId_dest(String id_dest) {
 		this.id_dest = id_dest;
 	}
