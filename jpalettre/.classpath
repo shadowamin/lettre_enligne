@@ -4,6 +4,35 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/eclipseLink"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/c3p0-0.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/hibernate-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/hibernate-3.2.0.cr2.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/hibernate-entitymanager-3.2.0.cr2.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/hibernate-validator-4.0.2.GA.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/javax.persistence-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/jboss-common-4.0.2.jar"/>
 	<classpathentry kind="lib" path="C:/amin/workspace/mysql-connector-java-5.1.21.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/spring-aop.jar"/>
+	<classpathentry kind="lib" path="C:/amin/workspace/spring-tx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/commons-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/log4j-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/postgresql-9.0-801.jdbc3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amin/Desktop/libHibernate/spring.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
