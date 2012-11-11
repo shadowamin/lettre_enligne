@@ -6,20 +6,14 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
-
 import DaoImp.ClientdaoImpl;
 import models.Client;
 import models.Lettre;
-@Repository
-@Component
+
 public class ClientDao implements ClientdaoImpl{
-	 @PersistenceContext
-	EntityManager em;
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPersistenceUnit");
+	EntityManager em = emf.createEntityManager();
 	
 	public Client getClient(String mail , String mp)
 	{

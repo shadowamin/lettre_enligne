@@ -6,13 +6,13 @@
 			<class>models.Lettre</class>
 			<class>models.Destinataire</class>
 			<exclude-unlisted-classes>false</exclude-unlisted-classes>
-<!--<properties>
- 			<property name="eclipselink.jdbc.password" value="" />
+<properties>
+			<property name="eclipselink.jdbc.password" value="" />
 			<property name="eclipselink.jdbc.user" value="root" />
 			<property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost/lettre_en_ligne" />
 			<property name="eclipselink.logging.level" value="INFO" />
 			<property name="eclipselink.ddl-generation" value="create-tables"/>
-		</properties>  -->
+		</properties> 
 	</persistence-unit>
 </persistence>
